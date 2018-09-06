@@ -1,0 +1,22 @@
+{
+    "name": "gases/pager",
+    "description": "A library to split results into multiple pages",
+    "keywords": ["pager", "paginator", "pagination"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "GaSeS",
+            "email": "very.nice@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSPager\\": "src/GSPager/"
+        }
+    }
+}
